@@ -18,4 +18,4 @@ node_modules/
 _site/
 back/
 *.log
-lib/*
+/lib/*/**/*.*

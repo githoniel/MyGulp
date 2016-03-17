@@ -1,0 +1,2 @@
+var patternN9 = new RegExp("^\\d{1,10}$");
+document.write(patternN9.test("a2"));

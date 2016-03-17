@@ -1,15 +1,12 @@
+"use strict";
 
-let basket = {
-	count: 31,
-	onSale: 99999
+var basket = {
+  count: 31,
+  onSale: 99999
 };
-let element = document.createElement("div");
+var element = document.createElement("div");
 element.className = "message";
-let textNode = document.createTextNode(`
-  There are ${basket.count} items
-   in your basket, ${basket.onSale}
-  are on sale!!!
-`);
+var textNode = document.createTextNode("\n  There are " + basket.count + " items\n   in your basket, " + basket.onSale + "\n  are on sale!!!\n");
 element.appendChild(textNode);
 document.body.appendChild(element);
 
